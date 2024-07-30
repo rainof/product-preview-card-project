@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/product-preview-card-project/static/css/main.976375f5.css",
+    "main.js": "/product-preview-card-project/static/js/main.6e9af1cd.js",
+    "static/js/453.3d8c7c16.chunk.js": "/product-preview-card-project/static/js/453.3d8c7c16.chunk.js",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/product-preview-card-project/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf": "/product-preview-card-project/static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.c767db37f6648bd42213.ttf",
+    "static/media/image-product-desktop.jpg": "/product-preview-card-project/static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
+    "static/media/image-product-mobile.jpg": "/product-preview-card-project/static/media/image-product-mobile.113818bc746dc8e64ffb.jpg",
+    "index.html": "/product-preview-card-project/index.html",
+    "static/media/icon-cart.svg": "/product-preview-card-project/static/media/icon-cart.9606ad84b7565a3f523f9429396f8066.svg",
+    "main.976375f5.css.map": "/product-preview-card-project/static/css/main.976375f5.css.map",
+    "main.6e9af1cd.js.map": "/product-preview-card-project/static/js/main.6e9af1cd.js.map",
+    "453.3d8c7c16.chunk.js.map": "/product-preview-card-project/static/js/453.3d8c7c16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.976375f5.css",
+    "static/js/main.6e9af1cd.js"
+  ]
+}
