@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Product Preview Card Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Screenshot
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Here is the outcome of my solution, which is compatible with various platforms and sizes:
 
-### `npm test`
+![Solution](./src/assets/images/result.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Links
 
-### `npm run build`
+- Solution URL: [https://github.com/rainof/product-preview-card-project](https://github.com/rainof/product-preview-card-project)
+- Live Site URL: [https://rainof.github.io/product-preview-card-project](https://rainof.github.io/product-preview-card-project)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## My process
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built with
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)** - The latest version of the HyperText Markup Language, used for structuring the content of the web page.
+- **[CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)** - Also known as CSS variables, used for theming and maintaining consistent styling across the application.
+- **[Bootstrap 5](https://getbootstrap.com/)** - A popular CSS framework for developing responsive and mobile-first websites quickly and easily.
+- **[React](https://reactjs.org/)** - A JavaScript library for building user interfaces, allowing for efficient UI updates and state management.
+- **Responsive Design** - This project is designed to be fully responsive, ensuring it looks great on all devices, from mobile phones to desktop computers. Key features include:
+  - **[Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)** - CSS techniques used to apply styles based on the device's characteristics (e.g., width, height).
+  - **[Viewport Meta Tag](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag)** - Including the viewport meta tag in the HTML to control layout on mobile browsers.
+  - **[Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)** - Utilized for flexible and adaptive layout structures.
 
-### `npm run eject`
+### What I learned
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React**: Gained hands-on experience with React for building interactive user interfaces, including components, props, state management, and lifecycle methods.
+- **Bootstrap 5**: Learned to use Bootstrap 5 for creating responsive and visually appealing layouts and components.
+- **CSS Custom Properties**: Utilized CSS variables for theming and maintaining consistent styles across the application.
+- **Flexbox**: Applied Flexbox for creating flexible and responsive layouts.
+- **Responsive Design**: Implemented responsive design principles to ensure the application works well on various screen sizes, including mobile, tablet, and desktop.
+- **Viewport Meta Tag**: Used the viewport meta tag to control layout on mobile browsers.
+- **Git and GitHub**: Enhanced my understanding of version control and collaboration using Git and GitHub.
+- **Debugging and Problem-Solving**: Improved my debugging and problem-solving skills by troubleshooting issues and finding solutions during development.
+- **Project Structure**: Learned to organize project files and directories effectively for a React application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Continued development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Advanced React Features**: Explore advanced React features such as context, hooks, and higher-order components to enhance the application's functionality.
+- **State Management**: Implement a more robust state management solution, such as Redux or Context API, for better handling of global state.
+- **Testing**: Add comprehensive testing using tools like Jest and React Testing Library to ensure the application is reliable and maintainable.
+- **Accessibility**: Improve the accessibility of the application to ensure it is usable by a wider range of users, including those with disabilities.
+- **Performance Optimization**: Optimize the application for better performance, including code splitting, lazy loading, and minimizing render times.
+- **Backend Integration**: Integrate with a backend service or API to add dynamic data fetching and persistent data storage.
+- **Deployment**: Deploy the application to a cloud platform like Netlify, Vercel, or GitHub Pages to make it publicly accessible.
+- **Continuous Integration/Continuous Deployment (CI/CD)**: Set up a CI/CD pipeline to automate testing and deployment processes.
+- **User Feedback and Iteration**: Collect user feedback to understand their needs and iterate on the application to improve user experience and add new features.
+- **Learning New Technologies**: Continue learning new web development technologies and frameworks to stay up-to-date with industry trends and best practices.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Author
 
-## Learn More
+Pattaraporn Tulathum
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgement
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I would like to express my sincere gratitude to ChatGPT by OpenAI for providing invaluable assistance throughout the development of this project. The guidance and support helped me navigate through challenges and enhanced my learning experience in frontend development, particularly with React and responsive design.
