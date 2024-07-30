@@ -33,13 +33,12 @@ $font-fraunces: 'Fraunces', san-serif;
 }
 
 .card {
-  // padding: 1rem;
   margin: 1rem;
   border-radius: 0.8rem;
   border-color: $primary-cream;
 }
 
-.product-img {
+.product_img {
   width: 100%;
   border-radius: 0.8rem 0.8rem 0 0;
 }
@@ -47,15 +46,16 @@ $font-fraunces: 'Fraunces', san-serif;
 .product {
   padding: 1.5rem;
 
-  .product-label {
+  .product_label {
     color: $neutral-dark-grayish-blue;
     font-family: $font-montserrat;
     font-weight: 500;
     font-size: 0.8rem;
     border-radius: 0.8rem 0 0 0;
+    letter-spacing: 0.3rem;
   }
 
-  .product-name {
+  .product_name {
     color: $neutral-very-dark-blue;
     font-family: $font-fraunces;
     font-weight: 700;
@@ -64,7 +64,7 @@ $font-fraunces: 'Fraunces', san-serif;
     padding: 0.6rem 0 1rem 0;
   }
 
-  .product-detail {
+  .product_detail {
     color: $neutral-dark-grayish-blue;
     font-family: $font-montserrat;
     font-weight: 500;
@@ -72,19 +72,19 @@ $font-fraunces: 'Fraunces', san-serif;
     padding-bottom: 0.2rem;
   }
 
-  .product-promotion {
+  .product_promotion {
     display: flex;
     align-items: center;
     padding: 0.7rem 0;
 
-    .discounted-cost {
+    .discounted_cost {
       color: $primary-dark-cyan;
       font-family: $font-fraunces;
       font-weight: 700;
       font-size: 2rem;
     }
 
-    .before-discounted-cost {
+    .before_discounted_cost {
       color: $neutral-dark-grayish-blue;
       font-family: $font-montserrat;
       font-weight: 500;

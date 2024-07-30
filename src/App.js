@@ -3,18 +3,19 @@ import './App.scss';
 import product_img from './assets/images/image-product-mobile.jpg';
 import cart_img from './assets/images/icon-cart.svg';
 
-function App() {
+function App({data}) {
+  const { product_label, product_name, product_detail, discounted_cost, before_discounted_cost } = data;
+
   return (
     <div className="card">
-      <img className="product-img" src={product_img} alt="product" />
+      <img className="product_img" src={product_img} alt="product" />
       <div className="product">
-        <div className="product-label">P E R F U M E</div>
-        <div className="product-name">Gabrielle Essence Eau De Parfum</div>
-        <div className="product-detail">A floral, solar and voluptuous interpretation composed by Olivier Polge,
-      Perfumer-Creator for the House of CHANEL.</div>
-        <div className="product-promotion">
-          <div className="discounted-cost">$149.99</div>
-          <div className="before-discounted-cost">$169.99</div>
+        <div className="product_label">{product_label}</div>
+        <div className="product_name">{product_name}</div>
+        <div className="product_detail">{product_detail}</div>
+        <div className="product_promotion">
+          <div className="discounted_cost">{discounted_cost}</div>
+          <div className="before_discounted_cost">{before_discounted_cost}</div>
         </div>
         <button className="payment_button">
           <img className="cart_icon" src={cart_img} alt="cart" />
