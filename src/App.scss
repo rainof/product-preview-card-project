@@ -1,0 +1,32 @@
+$primary-dark: hsl(158, 36%, 37%);
+$primary-cream: hsl(30, 38%, 92%);
+$neutral-very-dark-blue: hsl(212, 21%, 14%);
+$neutral-dark-grayish-blue: hsl(228, 12%, 48%);
+$neutral-white: hsl(0, 0%, 100%);
+$font-size: 14px;
+$font-montserrat: 'Montserrat', serif;
+
+#root {
+  background-color: hsl(30, 38%, 92%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  // justify-content: center;
+  // align-items: center;
+}
+
+.card {
+  // padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.8rem;
+  border-color: $primary-cream;
+}
+
+.product {
+  .product-img {
+    width: 100%;
+    border-radius: 0.8rem 0.8rem 0 0;
+  }
+}
