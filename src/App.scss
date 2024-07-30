@@ -1,20 +1,35 @@
-$primary-dark: hsl(158, 36%, 37%);
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 500 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url('./assets/fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+$primary-dark-cyan: hsl(158, 36%, 37%);
 $primary-cream: hsl(30, 38%, 92%);
 $neutral-very-dark-blue: hsl(212, 21%, 14%);
 $neutral-dark-grayish-blue: hsl(228, 12%, 48%);
 $neutral-white: hsl(0, 0%, 100%);
+
 $font-size: 14px;
-$font-montserrat: 'Montserrat', serif;
+
+$font-montserrat: 'Montserrat', san-serif;
+$font-fraunces: 'Fraunces', san-serif;
 
 #root {
   background-color: hsl(30, 38%, 92%);
   width: 100%;
   height: 100vh;
   display: flex;
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
-  // justify-content: center;
-  // align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -24,9 +39,76 @@ $font-montserrat: 'Montserrat', serif;
   border-color: $primary-cream;
 }
 
+.product-img {
+  width: 100%;
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+
 .product {
-  .product-img {
+  padding: 1.5rem;
+
+  .product-label {
+    color: $neutral-dark-grayish-blue;
+    font-family: $font-montserrat;
+    font-weight: 500;
+    font-size: 0.8rem;
+    border-radius: 0.8rem 0 0 0;
+  }
+
+  .product-name {
+    color: $neutral-very-dark-blue;
+    font-family: $font-fraunces;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 0.6rem 0 1rem 0;
+  }
+
+  .product-detail {
+    color: $neutral-dark-grayish-blue;
+    font-family: $font-montserrat;
+    font-weight: 500;
+    font-size: $font-size;
+    padding-bottom: 0.2rem;
+  }
+
+  .product-promotion {
+    display: flex;
+    align-items: center;
+    padding: 0.7rem 0;
+
+    .discounted-cost {
+      color: $primary-dark-cyan;
+      font-family: $font-fraunces;
+      font-weight: 700;
+      font-size: 2rem;
+    }
+
+    .before-discounted-cost {
+      color: $neutral-dark-grayish-blue;
+      font-family: $font-montserrat;
+      font-weight: 500;
+      font-size: 0.8rem;
+      text-decoration: line-through;
+      padding-left: 1.2rem;
+    }
+  }
+
+  .payment_button {
     width: 100%;
-    border-radius: 0.8rem 0.8rem 0 0;
+    background-color: $primary-dark-cyan;
+    color: $neutral-white;
+    font-family: $font-montserrat;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 0.8rem 0;
+    border-style: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+
+    .cart_icon {
+      padding-right: 0.6rem;
+    }
   }
 }
