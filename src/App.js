@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
-import product_img from './assets/images/image-product-mobile.jpg';
 import cart_img from './assets/images/icon-cart.svg';
 
 function App({data}) {
@@ -8,7 +7,8 @@ function App({data}) {
 
   return (
     <div className="card">
-      <img className="product_img" src={product_img} alt="product" />
+      {/* <img className="product_img" src={product_img} alt="product" /> */}
+      <div className="product_img"></div>
       <div className="product">
         <div className="product_label">{product_label}</div>
         <div className="product_name">{product_name}</div>
